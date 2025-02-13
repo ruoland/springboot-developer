@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           google:
-            clientId: 2491315593-7ct69ppds8ee3d6bvol8b120l7ipdo13.apps.googleusercontent.com
-            clientSecret: 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
+            clientId: test-id
+            clientSecret: test_secret
             scope:
               - email
               - profile
@@ -21,4 +21,4 @@ spring:
     defer-datasource-initialization: true
 jwt:
   issuer: ajufresh@gmail.com
-  secret_key: study-springboot
+  secret_key: test_key
